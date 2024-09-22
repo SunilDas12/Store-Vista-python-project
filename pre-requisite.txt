@@ -1,0 +1,34 @@
+USE VIRTUAL ENVIRONMENT TO RUN THE APPLICATION VIRTUALLY
+-----------------------------------------------------------
+Step 1: Navigate to Your Project Directory
+cd /path/to/your/project
+
+Step 2: Create the Virtual Environment
+python -m venv venv
+OR
+python/installation/path -m venv path/to/create/virtual enviromemnt
+
+Step 3: Activate the Virtual Environment
+venv\Scripts\activate
+
+
+Step 4: To use python virtual interpreter
+Press ctrl+shift+p and search for python interpreter then select your virtual python interpreter
+
+You can install your libraries into it.
+
+-----If you have alreaady requirement libraries you can execute the command in the terminal to install all the packages----
+pip install -r requirements.txt 
+
+
+COMMIT YOUR CODE TO GIT REPOSITORY
+-----------------------------------------
+Open terminal and follow the below steps
+Step 1: start the git using [git init]
+Step 2: add to remore URL [git remote add origin https://github.com/your-username/repository-name.git]
+Step 3: Validate the remote URL [git remote -v]
+Step 4: Change the branch if requred [git branch -M main to git branch -M Development ] or vice-versa based on requirement
+Step 5: Commit and Push your changes to git
+        git add .
+        git commit -m "Initial commit"
+        git push -u origin main/Development

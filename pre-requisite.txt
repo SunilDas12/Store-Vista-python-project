@@ -32,3 +32,8 @@ Step 5: Commit and Push your changes to git
         git add .
         git commit -m "Initial commit"
         git push -u origin main/Development
+
+Get all the libraries installed for your Scripts
+-------------------------------------------------
+Navigate to your project folder and execute the below command
+F:\Python\streamlit_for_datascience>pip freeze > req.txt

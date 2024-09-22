@@ -12,3 +12,4 @@ opencv-python
 jupyter
 pycryptodome
 pyrebase4
+streamlit

@@ -106,7 +106,7 @@ python-dateutil
 python-json-logger 
 python-jwt 
 pytz 
-pywin32 
+#pywin32 
 pywinpty 
 PyYAML 
 pyzmq 
